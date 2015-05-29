@@ -33,7 +33,7 @@ public class BoardWriteAction implements Action {
 		
 		//BoardDAO 사용 위해 객체 생성
 		BoardDAO dao = new BoardDAO();
-		dao.insertBoard(board);
+		
 		
 		
 		//list.board로 가기 위해
